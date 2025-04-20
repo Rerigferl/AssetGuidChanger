@@ -1,6 +1,12 @@
 # AssetGuidChanger
-Unitypackage“à‚ÌƒAƒZƒbƒg‚ÌGUID‚ğˆêŠ‡’uŠ·
+Unitypackageå†…ã®ã‚¢ã‚»ãƒƒãƒˆã®GUIDã‚’ä¸€æ‹¬ç½®æ›
 
-## g‚¢•û
-exe‚Éunitypackage‚ğD&D
-‚à‚µ‚­‚ÍCUI‚©‚ç
+## ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+[æœ€æ–°ç‰ˆ](https://github.com/Rerigferl/AssetGuidChanger/releases/latest)
+
+Windowsï¼ˆx64ï¼‰ã—ã‹ç½®ã„ã¦ã„ãªã„ã®ã§ã€é•ã†å ´åˆã¯dotnet 9ã®SDKã‚’å…¥ã‚Œã¦ãƒ“ãƒ«ãƒ‰ã—ã¦ãã ã•ã„
+
+
+## ä½¿ã„æ–¹
+exeã«unitypackageã‚’D&D
+ã‚‚ã—ãã¯CUIã‹ã‚‰
