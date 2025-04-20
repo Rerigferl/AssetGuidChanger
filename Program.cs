@@ -72,10 +72,11 @@ partial class Program
                 }
                 else if (fileName is "asset")
                 {
-                    data.ReadExactly(headerBuffer);
-                    if (!headerBuffer.SequenceEqual("%YAML 1.1\n"u8))
+                    var len = data.Read(headerBuffer);
+                    var header = headerBuffer[..len];
+                    if (!header.SequenceEqual("%YAML 1.1\n"u8))
                     {
-                        stream.Write(headerBuffer);
+                        stream.Write(header);
                         data.CopyTo(stream);
                     }
                     else
